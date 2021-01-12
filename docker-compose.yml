@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+ housy:
+   container_name: housy
+   image: rizal27/housyfront
+   stdin_open: true
+   ports:
+     - 3000:3000
+ 
+ housy1:
+   container_name: housy1
+   image: rizal27/housyfront
+   stdin_open: true
+   ports:
+     - 3001:3000
